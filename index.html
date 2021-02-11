@@ -9,6 +9,7 @@
   </head>
 
   <body>
+    <!-- header includes name and navbar content -->
     <header>
       <h1 class="name">haleigh-spurlock.portfolio</h1>
       <nav id="nav">
@@ -27,14 +28,15 @@
     </header>
 
     <main>
+      <!-- utilized section hero to include image with picture and favorite things -->
       <section class="hero">
         <img src="assets/hero.jpg" />
       </section>
-
+<!-- main content section includes three articles: about me, my projects, and contact me -->
       <section class="main-content">
         <articles id="about-me" class="main-content-item">
-          <!-- TODO: About Me (.main-content .about-me) -->
           <h1>About Me</h1>
+          <!-- utilized code tag vs div or other tags to be able to style with CSS-->
           <code>
             <b>.haleigh-education</b> {
               &ensp;&ensp;University: Graceland 
@@ -64,36 +66,49 @@
           }
           </code>
         </articles>
+        <!-- main content includes 4 "projects", the main one in it's own div to allow for alternate formatting -->
+        <!-- divs also allowed for formatting of title tags on images -->
         <article class="main-content-item">
-          <!-- TODO: My Work (.main-content .my-work) -->
           <h1>My Projects</h1>
           <div id="my-projects" class="my-projects">
               <div class="main-project">
-                  <a href="http://www.google.com">
-                    <img src="assets/placeholder.png" class="recent-project"/>
-                  </a>
+                  <div class="project-card">
+                    <h4>project 1</h4>
+                    <a target="_blank" href="http://www.google.com">
+                      <img src="assets/placeholder.png" class="recent-project"/>
+                    </a>
+                  </div>
               </div>
-              <div class="sub-projects"> 
-                <a href="http://www.google.com">
-                  <img src="assets/placeholder.png" class="secondary-image"/>
-                </a>
-                <a href="http://www.google.com">
-                  <img src="assets/placeholder.png" class="secondary-image"/>
-                </a>
-                <a href="http://www.google.com">
-                  <img src="assets/placeholder.png" class="secondary-image"/>
-                </a>
+              <div class="sub-projects">
+                <div class="project-card">
+                  <a target="_blank" href="http://www.google.com">
+                    <img src="assets/placeholder.png" class="secondary-image"/>
+                  </a>
+                  <h4>project 2</h4>
+                </div>
+                <div class="project-card">
+                  <a target="_blank" href="http://www.google.com">
+                    <img src="assets/placeholder.png" class="secondary-image"/>
+                  </a>
+                  <h4>project 3</h4>
+                </div>
+                <div class="project-card">
+                  <a target="_blank" href="http://www.google.com">
+                    <img src="assets/placeholder.png" class="secondary-image"/>
+                  </a>
+                  <h4>project 4</h4>
+                </div>
               </div> 
           </div>
         </article>
         <article id="contact-me" class="main-content-item">
-          <!-- TODO: Contact information (.main-content .contact-info) -->
+          <!-- all links are clickable, even email! -->
           <h1>Contact Me!</h1>
           <p class="contacts">
             <a href="mailto:haleighspurlock@gmail.com">Gmail</a>
-            <a href="https://www.linkedin.com/in/haleighspurlock/">LinkedIn</a>
-            <a href="https://github.com/haleighspurlock">GitHub</a>
-            <a href="https://stackoverflow.com/users/14720292/haleigh-spurlock?tab=profile">StackOverflow</a>
+            <a target="_blank" href="https://www.linkedin.com/in/haleighspurlock/">LinkedIn</a>
+            <a target="_blank" href="https://github.com/haleighspurlock">GitHub</a>
+            <a target="_blank" href="https://stackoverflow.com/users/14720292/haleigh-spurlock?tab=profile">StackOverflow</a>
           </p>
         </article>
       </section>
@@ -101,8 +116,7 @@
 
     <footer>
       <div class="copyright">
-        <!-- TODO: Copyright info -->
-        haleigh spurlock | 2021
+        haleigh spurlock | &#169; 2021
       </div>
     </footer>
   </body>

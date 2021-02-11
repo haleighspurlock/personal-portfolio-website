@@ -1,4 +1,4 @@
-# **Personal Portfolio (“personal-“portfolio)**
+# **Personal Portfolio (“personal-portfolio")**
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@ I chose to style my portfolio to give it a “code” look. As you’ll see, my 
 
 Deployed Website: 
 
-![Personal-Portfolio](*****Include Screenshot here******)
+![Personal-Portfolio](assets/website-snap.png)
 
 ## Requirements 
 ---
