@@ -40,9 +40,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ---
 No installation needed for this project
 
-See deployed site here: ***Website 
+See deployed site here: https://haleighspurlock.github.io/personal-portfolio-website/
 
-See repository here: ***Repo
+See repository here: https://github.com/haleighspurlock/personal-portfolio-website
 
 ## Contributing
 ---
