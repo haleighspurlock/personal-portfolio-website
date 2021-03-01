@@ -105,6 +105,8 @@ code {
 
 .my-projects div img {
   border: 4px solid transparent;
+  height: 400px;
+  width: 400px;
 }
 
  .project-card img:hover {
