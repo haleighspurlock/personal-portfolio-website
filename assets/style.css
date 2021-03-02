@@ -105,8 +105,8 @@ code {
 
 .my-projects div img {
   border: 4px solid transparent;
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
 }
 
  .project-card img:hover {
@@ -123,6 +123,10 @@ code {
   text-align: center;
 }
 
+.phone{
+  text-align: center;
+}
+
 /* ----FOOTER---- */
 footer {
   text-align: center;
@@ -135,7 +139,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 955px) {
+@media screen and (max-width: 1230px) {
   .sub-projects {
     flex-direction: column;
   }
